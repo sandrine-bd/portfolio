@@ -1,0 +1,241 @@
+h1, h2 {
+    font-family: 'Lobster';
+    padding-top: 1vw;
+    margin-top: 0;
+}
+
+p, ul {
+    font-family: 'Roboto';
+    font-size: 1.125rem;
+    line-height: 1.5em;
+    color: #f3f8f8;
+}
+
+h1 {
+    font-size: 4em;
+    color: #f3f8f8;
+}
+
+#titre-principal {
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #9bbec5;
+}
+
+.titre-dark {
+    color: #3C5862;
+}
+
+body {
+    margin: 0;
+}
+
+#header,
+#formations,
+#interets,
+footer,
+.sandrine-footer,
+#formulaire,
+#cyclo {
+    padding: 2vw 2vw 2vw 5vw;
+    background-color: #1d292f;
+}
+
+#experiences,
+#competences {
+    padding: 2vw 2vw 2vw 5vw;
+    background-color: #F3F8F8;
+}
+
+#experiences table {
+    color: #1D292F;
+}
+
+#competences ul {
+    color: #1D292F;
+}
+
+.lien-clair {
+    color: #9bbec5;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 1.5em;
+}
+
+.lien-clair:hover {
+    color: #60949f;
+}
+
+.logo-background {
+    background-color: #f3f8f8;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.logo-propos {
+    margin-top: 10px;
+    max-width: 220px;
+}
+
+#photo-sandrine {
+    width: 200px;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+#tableau-experiences,
+#tableau-formations,
+#interets {
+    font-family: 'Roboto';
+    font-size: 1.125rem;
+    line-height: 1.5em;
+    color: #f3f8f8;
+}
+
+.scrollup {
+    margin: 40px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.fleche {
+    border-radius: 50%;
+    padding: 10px;
+    color: #60949f;
+    border: 1px;
+    border-color: #1D292F;
+}
+
+.sandrine-footer {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.boutons-sandrine {
+    margin: 20px;
+    margin-top: 0;
+    background-color: #60949f;
+    color:#f3f8f8;
+    padding: 1em 1.5em;
+    border-radius: 10px;
+}
+
+td, th {
+    padding: 10px;
+    text-align: left;
+}
+
+header > div {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+button {
+    margin-top: 1em;
+    margin-right: 0.5em;
+    padding: 0.5em;
+    font: 1em 'Roboto';
+    background-color: #E0EBED;
+    color: #314148;
+    border-radius: 5px;
+    border: 1px;
+    border-color: #1D292F;
+}
+
+button:hover {
+    background-color: #9BBEC5;
+}
+
+fieldset {
+    margin-top: 1em;
+}
+
+.button-contact-sandrine {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-sandrine {
+    width: 400px;
+    padding: 2em;
+    border: 1px solid #F3F8F8;
+    border-radius: 1em;
+    margin-bottom: 3em;
+}
+
+.contact-ul-sandrine {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-ul-sandrine > li {
+    display: flex;
+    align-items: start;
+}
+
+form li + li {
+    margin-top: 1em;
+}
+
+
+.label-sandrine {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    margin-right: 0.5em;
+}
+
+#name,
+#entreprise,
+#mail,
+#tel,
+#msg {
+    font: 1em 'Roboto';
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #4F7F8B;
+}
+
+:focus-visible,
+input:focus,
+textarea:focus {
+    outline: 1px solid #C4D9DD;
+}
+
+#msg {
+    height: 100px;
+}
+
+#cyclo-boutons {
+    margin-top: 3em;
+}
+
+#titre-interets {
+    font-size: 2.5em;
+}
+
+@media (max-width: 520px) {
+    #cyclo p {
+        width: 100vw;
+    }
+}
+
+@media (max-width: 920px) {
+    header > div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}
